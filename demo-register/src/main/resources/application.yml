@@ -3,8 +3,8 @@ server:
 
 eureka:
   server:
-    enable-self-preservation: false # ÉèÎªfalse£¬¹Ø±Õ×ÔÎÒ±£»¤
-    eviction-interval-timer-in-ms: 4000 # ÇåÀí¼ä¸ô£¨µ¥Î»ºÁÃë£¬Ä¬ÈÏÊÇ60*1000£©
+    enable-self-preservation: false # è®¾ä¸ºfalseï¼Œå…³é—­è‡ªæˆ‘ä¿æŠ¤
+    eviction-interval-timer-in-ms: 4000 # æ¸…ç†é—´éš”ï¼ˆå•ä½æ¯«ç§’ï¼Œé»˜è®¤æ˜¯60*1000ï¼‰
   instance:
     hostname: localhost
   client:
